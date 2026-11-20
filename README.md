@@ -1,42 +1,30 @@
-# Klikkenyang.id
+# Klikkenyang.id 🍜
 
-Versi struktur terpisah dari prototype HTML yang diberikan. Markup, teks, data mock, dan logika JavaScript dipertahankan; kode aplikasi hanya dipindahkan ke file terpisah.
+**Platform Direktori Kuliner Malam & Pre-Order Mahasiswa**
 
-## Struktur
+Klikkenyang.id merupakan platform informasi kuliner malam yang dirancang untuk membantu mahasiswa menemukan pilihan makanan di sekitar area Universitas Muhammadiyah Purwokerto (UMP).
 
-```text
-klikkenyang-final/
-├── index.html
-├── README.md
-└── assets/
-    ├── css/
-    │   └── style.css
-    └── js/
-        ├── data.js
-        └── app.js
-```
+## 🌐 Live Demo
+https://klikkenyang-id.vercel.app/
 
-## Menjalankan lokal
+## ✨ Fitur Utama
+- Direktori kuliner malam.
+- Informasi pilihan makanan.
+- Layanan pre-order mahasiswa.
+- Informasi kuliner di sekitar area UMP.
 
-Buka folder ini di VS Code, lalu jalankan `index.html` menggunakan Live Server atau server statis lokal. Koneksi internet diperlukan untuk CDN Tailwind, Google Fonts, dan Font Awesome.
+## 🛠️ Teknologi
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+- Vercel
 
-## Deploy tanpa Git
+## 👨‍💻 Developer
+Developed by Nazar Anugrah.
 
-Instal Node.js, lalu di terminal pada folder project jalankan:
+GitHub: https://github.com/zaarrhub9
 
-```bash
-npm install -g vercel
-vercel
-```
+---
 
-Ikuti login dan pilihan project. Untuk deployment production berikutnya jalankan:
-
-```bash
-vercel --prod
-```
-
-Vercel akan memberikan URL `*.vercel.app`. Deployment dilakukan dari komputer lokal melalui Vercel CLI, bukan Git push.
-
-## Catatan
-
-Data warung/menu dan status stok masih mock data lokal sesuai prototype; belum ada backend/database atau sinkronisasi real-time.
+*Project ini dikembangkan sebagai salah satu karya portofolio pengembangan web.*
